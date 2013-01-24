@@ -14,15 +14,16 @@
     <div id = "top-panel-wrapper">
       <h1 class="center-title">Public Garden</h1>
     </div>
-    <div id="garden-problems">
+    <div id="problems">
         <ol>
-          <form action="garden.php?num[]=gardencheck" method="post">
-            <li>Answer: <input type="text" value="" name="garden-input-1"></li>
-            <li>Answer: <input type="text" value="" name="garden-input-2"></li>
-            <li>Answer: <input type="text" value="" name="garden-input-3"></li>
-            <li>Answer: <input type="text" value="" name="garden-input-4"></li>
+          <p>Please enter answers below.</p>
+          <form action="garden.php?" method="post">
+            <li><input type="text" value="" name="garden-input-1"></li>
+            <li><input type="text" value="" name="garden-input-2"></li>
+            <li><input type="text" value="" name="garden-input-3"></li>
+            <li><input type="text" value="" name="garden-input-4"></li>
                 <br>
-              <input id="garden-submit" type="submit">
+              <input id="submit" type="submit">
             </form>
         </ol>
         <?php

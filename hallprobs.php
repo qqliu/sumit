@@ -23,60 +23,54 @@
     $ans8 = mysql_fetch_array($query8);
     $ans9 = mysql_fetch_array($query9);
     $ans10 = mysql_fetch_array($query10);
+
+    $input1 = $_POST["hall-input-1"];
+    $input2 = $_POST["hall-input-2"];
+    $input3 = $_POST["hall-input-3"];
+    $input4 = $_POST["hall-input-4"];
+    $input5 = $_POST["hall-input-5"];
+    $input6 = $_POST["hall-input-6"];
+    $input7 = $_POST["hall-input-7"];
+    $input8 = $_POST["hall-input-8"];
+    $input9 = $_POST["hall-input-9"];
+    $input10 = $_POST["hall-input-10"];
     
-    echo $question_num[0];
-    if (count($question_num) == 0) {
-        echo "Not doing answer checking";
+    if ($input1 == $ans1[0]) {
+        echo '<script type="text/javascript">writeCookie("ha1", true);</script>';
     }
-    else {
-        $input1 = $_POST["hall-input-1"];
-        $input2 = $_POST["hall-input-2"];
-        $input3 = $_POST["hall-input-3"];
-        $input4 = $_POST["hall-input-4"];
-        $input5 = $_POST["hall-input-5"];
-        $input6 = $_POST["hall-input-6"];
-        $input7 = $_POST["hall-input-7"];
-        $input8 = $_POST["hall-input-8"];
-        $input9 = $_POST["hall-input-9"];
-        $input10 = $_POST["hall-input-10"];
-        
-        if ($input1 == $ans1[0]) {
-            echo '<script type="text/javascript">writeCookie("ha1", true);</script>';
-        }
-        if ($input2 == $ans2[0]) {
-            echo '<script type="text/javascript">writeCookie("ha2", true);</script>';
-        }
-        
-        if ($input3 == $ans3[0]) {
-            echo '<script type="text/javascript">writeCookie("ha3", true);</script>';
-        }
-        
-        if ($input4 == $ans4[0]) {
-            echo '<script type="text/javascript">writeCookie("ha4", true);</script>';
-        }
-        
-        if ($input5 == $ans5[0]) {
-            echo '<script type="text/javascript">writeCookie("ha5", true);</script>';
-        }
-        
-        if ($input6 == $ans6[0]) {
-            echo '<script type="text/javascript">writeCookie("ha6", true);</script>';
-        }
-        
-        if ($input7 == $ans7[0]) {
-            echo '<script type="text/javascript">writeCookie("ha7", true);</script>';
-        }
-        
-        if ($input8 == $ans8[0]) {
-            echo '<script type="text/javascript">writeCookie("ha8", true);</script>';
-        }
-        
-        if ($input9 == $ans9[0]) {
-            echo '<script type="text/javascript">writeCookie("ha9", true);</script>';
-        }
-        
-        if ($input10 == $ans10[0]) {
-            echo '<script type="text/javascript">writeCookie("ha10", true);</script>';
-        }
+    if ($input2 == $ans2[0]) {
+        echo '<script type="text/javascript">writeCookie("ha2", true);</script>';
+    }
+    
+    if ($input3 == $ans3[0]) {
+        echo '<script type="text/javascript">writeCookie("ha3", true);</script>';
+    }
+    
+    if ($input4 == $ans4[0]) {
+        echo '<script type="text/javascript">writeCookie("ha4", true);</script>';
+    }
+    
+    if ($input5 == $ans5[0]) {
+        echo '<script type="text/javascript">writeCookie("ha5", true);</script>';
+    }
+    
+    if ($input6 == $ans6[0]) {
+        echo '<script type="text/javascript">writeCookie("ha6", true);</script>';
+    }
+    
+    if ($input7 == $ans7[0]) {
+        echo '<script type="text/javascript">writeCookie("ha7", true);</script>';
+    }
+    
+    if ($input8 == $ans8[0]) {
+        echo '<script type="text/javascript">writeCookie("ha8", true);</script>';
+    }
+    
+    if ($input9 == $ans9[0]) {
+        echo '<script type="text/javascript">writeCookie("ha9", true);</script>';
+    }
+    
+    if ($input10 == $ans10[0]) {
+        echo '<script type="text/javascript">writeCookie("ha10", true);</script>';
     }
 ?>

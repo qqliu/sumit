@@ -1,17 +1,8 @@
 function onLoad() {
-    var loganc = readCookie("logancorrect");
+    var ussc = readCookie("usscorrect");
     
-    if(loganc!=null) {
+    if(ussc!=null) {
         writeCookie("logan-active-node", true);
         document.location = "index.php";
-    }
-}
-
-function toggleChecks(cname) {
-    if (document.getElementById(cname).style.display != "none") {
-        document.getElementById(cname).style.display = "none";
-    }
-    else {
-        document.getElementById(cname).style.display = "inline";
     }
 }

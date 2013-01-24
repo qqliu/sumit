@@ -8,11 +8,20 @@
 #answer-page-submit {
 	text-align: center;
 }
- 
-#instructions {
+
+#problems {
 	text-align: center;
+	list-style-position:inside;
+	font-size:20px;
 }
 
+#submit{
+	font-size:25px;
+}
+
+body {
+    margin:0 auto;
+}
 
 .colorDiv {
     background-color: #FF823C;

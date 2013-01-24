@@ -14,11 +14,12 @@
     <div id = "top-panel-wrapper">
       <h1 class="center-title">Institute of Contemporary Art</h1>
     </div>
-    <div id="art-problems">
+    <div id="problems">
         <form action="art.php?num[]=artcheck" method="post">
-            Answer: <input type="text" value="" name="art-input-1">
-            <br>
-            <input id="art-submit" type="submit">
+            <p>Please input answer below.</p>
+            <input type="text" value="" name="art-input-1">
+            <br><br>
+            <input id="submit" type="submit">
         </form>
         <?php
           include ("artprobs.php");                                    

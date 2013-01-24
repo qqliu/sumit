@@ -14,17 +14,18 @@
     <div id = "top-panel-wrapper">
       <h1 class="center-title">Long Island</h1>
     </div>
-    <div id="island-problems">
+    <div id="problems">
         <ol>
-            <form action="longisland.php?num[]=islandcheck" method="post">
-                <li>Answer: <input type="text" value="" name="island-input-1"></li>
-                <li>Answer: <input type="text" value="" name="island-input-2"></li>
-                <li>Answer: <input type="text" value="" name="island-input-3"></li>
-                <li>Answer: <input type="text" value="" name="island-input-4"></li>
-                <li>Answer: <input type="text" value="" name="island-input-5"></li>
-                <li>Answer: <input type="text" value="" name="island-input-6"></li>
+            <p>Please input answers in the corresponding boxes.</p>
+            <form action="longisland.php?" method="post">
+                <li><input type="text" value="" name="island-input-1"></li>
+                <li><input type="text" value="" name="island-input-2"></li>
+                <li><input type="text" value="" name="island-input-3"></li>
+                <li><input type="text" value="" name="island-input-4"></li>
+                <li><input type="text" value="" name="island-input-5"></li>
+                <li><input type="text" value="" name="island-input-6"></li>
                 <br>
-              <input id="island-submit" type="submit">
+              <input id="submit" type="submit">
             </form>
         </ol>
         <?php

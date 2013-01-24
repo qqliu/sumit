@@ -14,13 +14,14 @@
     <div id = "top-panel-wrapper">
       <h1 class="center-title">Chinatown</h1>
     </div>
-    <div id="chinatown-problems">
+    <div id="problems">
         <div class = "imagewrapper">
         </div>
-        <form action="chinatown.php?num[]=chinatowncheck" method="post">
-            Activation Code: <input type="text" value="" name="chinatown-input-1">
-            <br>
-            <input id="chinatown-submit" type="submit">
+        <p>Please input activation code below.</p>
+        <form action="chinatown.php?" method="post">
+            <input type="text" value="" name="chinatown-input-1">
+            <br><br>
+            <input id="submit" type="submit">
         </form>
         <?php
           include ("chinatownprobs.php");                                    

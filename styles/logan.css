@@ -1,1 +1,243 @@
-i
+#logan-problems {
+    text-align: center;
+    list-style-position:inside;
+    font-size:30px;
+}
+
+#logan-submit {
+    font-size:30px;
+}
+
+#mycheckbox
+{ 
+    display: none; 
+}
+
+#mycheckbox + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/one.gif'); 
+}
+
+#mycheckbox:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox1
+{ 
+    display: none; 
+}
+
+#mycheckbox1 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px;  
+    background: url('../images/two.gif'); 
+}
+
+#mycheckbox1:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox2
+{ 
+    display: none; 
+}
+
+#mycheckbox2 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/three.gif'); 
+}
+
+#mycheckbox2:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox3
+{ 
+    display: none; 
+}
+
+#mycheckbox3 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/four.gif'); 
+}
+
+#mycheckbox3:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox4
+{ 
+    display: none; 
+}
+
+#mycheckbox4 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/five.gif'); 
+}
+
+#mycheckbox4:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox5
+{ 
+    display: none; 
+}
+
+#mycheckbox5 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/six.gif'); 
+}
+
+#mycheckbox5:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox6
+{ 
+    display: none; 
+}
+
+#mycheckbox6 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/seven.gif'); 
+}
+
+#mycheckbox6:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox7
+{ 
+    display: none; 
+}
+
+#mycheckbox7 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/eight.gif'); 
+}
+
+#mycheckbox7:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox8
+{ 
+    display: none; 
+}
+
+#mycheckbox8 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/nine.gif'); 
+}
+
+#mycheckbox8:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox9
+{ 
+    display: none; 
+}
+
+#mycheckbox9 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/ten.gif'); 
+}
+
+#mycheckbox9:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox10
+{ 
+    display: none; 
+}
+
+#mycheckbox10 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/eleven.gif'); 
+}
+
+#mycheckbox10:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox11
+{ 
+    display: none; 
+}
+
+#mycheckbox11 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/twelve.gif'); 
+}
+
+#mycheckbox11:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}
+
+#mycheckbox12
+{ 
+    display: none; 
+}
+
+#mycheckbox12 + label
+{ 
+    float: left; 
+    width: 50px; 
+    height: 50px; 
+    background: url('../images/empty_box.png'); 
+}
+
+#mycheckbox12:checked + label
+{ 
+    background: url('../images/checked_box.png'); 
+}

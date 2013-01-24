@@ -2,18 +2,95 @@
  *Activated Nodes
  */
 
+#helicopter{
+    position:absolute;
+    visibility: visible;
+    left:10px;
+    top:366px; 
+}
+
+#mit{
+    position:absolute;
+    visibility: visible;
+    left:1248px;
+    top:365px; 
+}
+
 #world-end-activated{
     position:absolute;
     visibility: hidden;
-    left:182px;
-    top:370px;
+    left:165px;
+    top:366px;
 }
 
 #moon-island-activated{
     position:absolute;
     visibility: hidden;
-    left:200px;
-    top:400px;
+    left:320px;
+    top:430px;
+}
+
+#long-island-activated{
+    position:absolute;
+    visibility: hidden;
+    left:320px;
+    top:300px;
+}
+
+#art-activated{
+    position:absolute;
+    visibility: hidden;
+    left:473px;
+    top:368px;
+}
+
+#chinatown-activated{
+    position:absolute;
+    visibility: hidden;
+    left:628px;
+    top:300px;
+}
+
+#aquarium-activated{
+    position:absolute;
+    visibility: hidden;
+    left:627px;
+    top:425px;
+}
+
+#logan-airport-activated{
+    position:absolute;
+    visibility: hidden;
+    left:781px;
+    top:117px;
+}
+
+#faneuil-hall-activated{
+    position:absolute;
+    visibility: hidden;
+    left:780px;
+    top:365px;
+}
+
+#public-garden-activated{
+    position:absolute;
+    visibility: hidden;
+    left:937px;
+    top:365px;
+}
+
+#prudential-activated{
+    position:absolute;
+    visibility: hidden;
+    left:1090px;
+    top:300px;
+}
+
+#john-hancock-activated{
+    position:absolute;
+    visibility: hidden;
+    left:1090px;
+    top:430px;
 }
 
 body {

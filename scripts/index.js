@@ -11,7 +11,50 @@ function onLoad() {
     var hall = readCookie("hall-active-node");
     var c = readCookie("chinatown-active-node");
     var art = readCookie("art-active-node");
+    
+    if(w!=null) {
+        activateNode("world-end-activated");
+    }
+    
+    if(i!=null) {
+        activateNode("long-island-activated");
+    }
+    
+    if(m!=null) {
+        activateNode("moon-island-activated");
+    }
+    
+    if(art!=null) {
+        activateNode("art-activated");
+    }
+    
+    if(c!=null) {
+        activateNode("chinatown-activated");
+    }
+    
+    if(a!=null) {
+        activateNode("aquarium-activated");
+    }
+    
+    if(l!=null) {
+        activateNode("logan-airport-activated");
+    }
+    
+    if(hall!=null) {
+        activateNode("faneuil-hall-activated");
+    }
+    
+    if(g!=null) {
+        activateNode("public-garden-activated");
+    }
 
+    if(p!=null) {
+        activateNode("prudential-activated");
+    }
+    
+    if(h!=null) {
+        activateNode("john-hancock-activated");
+    }
     if (w!=null && g!=null) {
         if (i!=null) {
             if (l!=null) {
